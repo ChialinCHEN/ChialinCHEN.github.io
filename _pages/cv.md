@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -7,58 +7,22 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- BEng in Artificial Intelligence, The Hong Kong University of Science and Technology (Guangzhou), September 2023–July 2027
+- Exchange student, University of Bologna, September 2025–January 2026
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Research
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+RAG-based pediatric case analysis, August 2026–present. Hybrid retrieval with BM25, BGE-M3, and reciprocal rank fusion for pediatric medical literature, and query optimization for medical term mapping, negation preservation, and multi-query reformulation.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Projects
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- Emotion-aware music reasoning, summer 2026. Theory-of-mind and chain-of-thought prompting, with MusicGen. [Repository](https://github.com/ZuriZHAO/AIAA3800_Proj)
+- Video object removal and inpainting, spring 2026, with Qiuyue Liu. YOLOv8-Seg, optical flow, OpenCV inpainting, promptable video segmentation, and ProPainter. [Repository](https://github.com/LIU-Qiuyue/ICVFinalProject)
+- Character voice synthesis, spring 2025. WebRTC VAD, Whisper, and F5-TTS
+- Program recommendation agent. Graph-mode multi-skill ranking. [Repository](https://github.com/taowenxiang/ProgRec)
+
+## Skills
+
+Python, C++, PyTorch, Hugging Face Transformers
